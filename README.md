@@ -1,1 +1,1 @@
-# curvy
+# g-curve
