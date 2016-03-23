@@ -15,9 +15,9 @@ def add_circle( points, cx, cy, cz, r, step ):
         x = z
         t+=1.0/step
 
-def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
-    xc = generate_curve_coefs(x0,x1,x2,x3,curve_type)
-    yc = generate_curve_coefs(y0,y1,y2,y3,curve_type)
+def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, typeC ):
+    xc = generate_curve_coefs(x0,x1,x2,x3,typeC)
+    yc = generate_curve_coefs(y0,y1,y2,y3,typeC)
 
     t=0.0
     step = 1.0/step
